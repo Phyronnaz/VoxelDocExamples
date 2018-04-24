@@ -1,0 +1,325 @@
+Begin Object Class=/Script/VoxelEditor.VoxelGraphNode_Root Name="VoxelGraphNode_Root_0"
+   NodePosX=352
+   NodePosY=400
+   NodeGuid=F6FE24164FA7A72283148889E425B17B
+   CustomProperties Pin (PinId=A25E87C045AA430305D63AA4301931CB,PinName=" ",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(VoxelGraphNode_27 DD2767AB4332DB2220F67A9877374C94,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/VoxelEditor.VoxelGraphNode Name="VoxelGraphNode_10"
+   Begin Object Class=/Script/Voxel.VoxelNode_3DSimplexNoiseFractal Name="VoxelNode_3DSimplexNoiseFractal_0"
+   End Object
+   Begin Object Name="VoxelNode_3DSimplexNoiseFractal_0"
+      InputPins(0)=(PinId=B22668E140B8FA08D3DFE6AE23F68FD8,PinCategory=Float,OtherNode=VoxelNode_XF'"VoxelGraphNode_11.VoxelNode_XF_0"',OtherPinId=D66510FC4EBF3DC7F0F6E897D4B95C81)
+      InputPins(1)=(PinId=D8128E4649683615718E31837B034510,PinCategory=Float,OtherNode=VoxelNode_YF'"VoxelGraphNode_12.VoxelNode_YF_0"',OtherPinId=FD519CEF4E5406EE6DAA11B3D57FCD60)
+      InputPins(2)=(PinId=31582C4C4EFDA65AB219F080224F823D,PinCategory=Float,OtherNode=VoxelNode_ZF'"VoxelGraphNode_13.VoxelNode_ZF_1"',OtherPinId=2ECAE2A84F17CC6C558A1087AD0EF9A4)
+      OutputPins(0)=(PinId=6DA3ADB54230A6F6C81472B85A226F8D,PinCategory=Float)
+      GraphNode=VoxelGraphNode'"VoxelGraphNode_10"'
+      InputPinCount=3
+   End Object
+   VoxelNode=VoxelNode_3DSimplexNoiseFractal'"VoxelNode_3DSimplexNoiseFractal_0"'
+   NodePosX=-1312
+   NodePosY=-400
+   NodeGuid=4824943C40D8578D3AC6A58711B803F8
+   CustomProperties Pin (PinId=6DA3ADB54230A6F6C81472B85A226F8D,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(VoxelGraphNode_14 51B2FC0B441137470E0C28BBDBD22DCA,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=B22668E140B8FA08D3DFE6AE23F68FD8,PinName="X",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(VoxelGraphNode_11 D66510FC4EBF3DC7F0F6E897D4B95C81,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=D8128E4649683615718E31837B034510,PinName="Y",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(VoxelGraphNode_12 FD519CEF4E5406EE6DAA11B3D57FCD60,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=31582C4C4EFDA65AB219F080224F823D,PinName="Z",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(VoxelGraphNode_13 2ECAE2A84F17CC6C558A1087AD0EF9A4,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/VoxelEditor.VoxelGraphNode Name="VoxelGraphNode_11"
+   Begin Object Class=/Script/Voxel.VoxelNode_XF Name="VoxelNode_XF_0"
+   End Object
+   Begin Object Name="VoxelNode_XF_0"
+      OutputPins(0)=(PinId=D66510FC4EBF3DC7F0F6E897D4B95C81,PinCategory=Float)
+      GraphNode=VoxelGraphNode'"VoxelGraphNode_11"'
+   End Object
+   VoxelNode=VoxelNode_XF'"VoxelNode_XF_0"'
+   NodePosX=-1424
+   NodePosY=-432
+   NodeGuid=EEC343184F47A8ECF98CABAD5AE35329
+   CustomProperties Pin (PinId=D66510FC4EBF3DC7F0F6E897D4B95C81,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(VoxelGraphNode_10 B22668E140B8FA08D3DFE6AE23F68FD8,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/VoxelEditor.VoxelGraphNode Name="VoxelGraphNode_12"
+   Begin Object Class=/Script/Voxel.VoxelNode_YF Name="VoxelNode_YF_0"
+   End Object
+   Begin Object Name="VoxelNode_YF_0"
+      OutputPins(0)=(PinId=FD519CEF4E5406EE6DAA11B3D57FCD60,PinCategory=Float)
+      GraphNode=VoxelGraphNode'"VoxelGraphNode_12"'
+   End Object
+   VoxelNode=VoxelNode_YF'"VoxelNode_YF_0"'
+   NodePosX=-1424
+   NodePosY=-368
+   NodeGuid=9B61EFEA4A2125B43A74C19A74C4E04B
+   CustomProperties Pin (PinId=FD519CEF4E5406EE6DAA11B3D57FCD60,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(VoxelGraphNode_10 D8128E4649683615718E31837B034510,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/VoxelEditor.VoxelGraphNode Name="VoxelGraphNode_13"
+   Begin Object Class=/Script/Voxel.VoxelNode_ZF Name="VoxelNode_ZF_1"
+   End Object
+   Begin Object Name="VoxelNode_ZF_1"
+      OutputPins(0)=(PinId=2ECAE2A84F17CC6C558A1087AD0EF9A4,PinCategory=Float)
+      GraphNode=VoxelGraphNode'"VoxelGraphNode_13"'
+   End Object
+   VoxelNode=VoxelNode_ZF'"VoxelNode_ZF_1"'
+   NodePosX=-1424
+   NodePosY=-304
+   NodeGuid=7438988645AD0AAFDF70668C37C94EF7
+   CustomProperties Pin (PinId=2ECAE2A84F17CC6C558A1087AD0EF9A4,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(VoxelGraphNode_10 31582C4C4EFDA65AB219F080224F823D,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/VoxelEditor.VoxelGraphNode Name="VoxelGraphNode_14"
+   Begin Object Class=/Script/Voxel.VoxelNode_FMultiply Name="VoxelNode_FMultiply_0"
+   End Object
+   Begin Object Name="VoxelNode_FMultiply_0"
+      InputPins(0)=(PinId=51B2FC0B441137470E0C28BBDBD22DCA,PinCategory=Float,OtherNode=VoxelNode_3DSimplexNoiseFractal'"VoxelGraphNode_10.VoxelNode_3DSimplexNoiseFractal_0"',OtherPinId=6DA3ADB54230A6F6C81472B85A226F8D)
+      InputPins(1)=(PinId=38D18EFF4DE8707B589D7C9231BBA8EA,PinCategory=Float,OtherNode=VoxelNode_FConstant'"VoxelGraphNode_15.VoxelNode_FConstant_0"',OtherPinId=D6C388514CF878795B3A0F99312A24C7)
+      OutputPins(0)=(PinId=A582065C4BB54408BC30A2B3739A4912,PinCategory=Float)
+      GraphNode=VoxelGraphNode'"VoxelGraphNode_14"'
+      InputPinCount=2
+   End Object
+   VoxelNode=VoxelNode_FMultiply'"VoxelNode_FMultiply_0"'
+   NodePosX=-1056
+   NodePosY=-304
+   NodeGuid=DC45029C479B8C2C53E3D488814C81E6
+   CustomProperties Pin (PinId=A582065C4BB54408BC30A2B3739A4912,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(VoxelGraphNode_16 429E09684A3BAEFD0F20448F81DB73D4,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=51B2FC0B441137470E0C28BBDBD22DCA,PinName="Input",PinFriendlyName=" ",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(VoxelGraphNode_10 6DA3ADB54230A6F6C81472B85A226F8D,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=38D18EFF4DE8707B589D7C9231BBA8EA,PinName="Input2",PinFriendlyName=" ",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(VoxelGraphNode_15 D6C388514CF878795B3A0F99312A24C7,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/VoxelEditor.VoxelGraphNode Name="VoxelGraphNode_15"
+   Begin Object Class=/Script/Voxel.VoxelNode_FConstant Name="VoxelNode_FConstant_0"
+   End Object
+   Begin Object Name="VoxelNode_FConstant_0"
+      Value=10.000000
+      OutputPins(0)=(PinId=D6C388514CF878795B3A0F99312A24C7,PinCategory=Float)
+      GraphNode=VoxelGraphNode'"VoxelGraphNode_15"'
+   End Object
+   VoxelNode=VoxelNode_FConstant'"VoxelNode_FConstant_0"'
+   NodePosX=-1200
+   NodePosY=-240
+   NodeGuid=E1E82AFD46924744F9960B867EA1063F
+   CustomProperties Pin (PinId=D6C388514CF878795B3A0F99312A24C7,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(VoxelGraphNode_14 38D18EFF4DE8707B589D7C9231BBA8EA,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/VoxelEditor.VoxelGraphNode Name="VoxelGraphNode_16"
+   Begin Object Class=/Script/Voxel.VoxelNode_FAdd Name="VoxelNode_FAdd_0"
+   End Object
+   Begin Object Name="VoxelNode_FAdd_0"
+      InputPins(0)=(PinId=429E09684A3BAEFD0F20448F81DB73D4,PinCategory=Float,OtherNode=VoxelNode_FMultiply'"VoxelGraphNode_14.VoxelNode_FMultiply_0"',OtherPinId=A582065C4BB54408BC30A2B3739A4912)
+      InputPins(1)=(PinId=C375EC06401A5E3E77A91A8DD58FC6E6,PinCategory=Float,OtherNode=VoxelNode_Min'"VoxelGraphNode_17.VoxelNode_Min_0"',OtherPinId=1EAEC071400DA978C86211B93FC50B61)
+      OutputPins(0)=(PinId=D1C8A5AC4CC90CBF94FD35AE1184AADE,PinCategory=Float)
+      GraphNode=VoxelGraphNode'"VoxelGraphNode_16"'
+      InputPinCount=2
+   End Object
+   VoxelNode=VoxelNode_FAdd'"VoxelNode_FAdd_0"'
+   NodePosX=-624
+   NodePosY=32
+   NodeGuid=5C1ABF8247A158A04830B3A1E678B98B
+   CustomProperties Pin (PinId=D1C8A5AC4CC90CBF94FD35AE1184AADE,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(VoxelGraphNode_24 93128D3A40F684126BF383BAB290A0E1,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=429E09684A3BAEFD0F20448F81DB73D4,PinName="Input",PinFriendlyName=" ",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(VoxelGraphNode_14 A582065C4BB54408BC30A2B3739A4912,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=C375EC06401A5E3E77A91A8DD58FC6E6,PinName="Input2",PinFriendlyName=" ",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(VoxelGraphNode_17 1EAEC071400DA978C86211B93FC50B61,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/VoxelEditor.VoxelGraphNode Name="VoxelGraphNode_17"
+   Begin Object Class=/Script/Voxel.VoxelNode_Min Name="VoxelNode_Min_0"
+   End Object
+   Begin Object Name="VoxelNode_Min_0"
+      InputPins(0)=(PinId=5F6999D64B0E62F92CEB4EA48BB7EAE0,PinCategory=Float,OtherNode=VoxelNode_ZF'"VoxelGraphNode_18.VoxelNode_ZF_2"',OtherPinId=7C5E8EB442519B6F09E38CA07D99D61D)
+      InputPins(1)=(PinId=0927D8C54F664F0541A67F9B073D87A1,PinCategory=Float,OtherNode=VoxelNode_FConstant'"VoxelGraphNode_19.VoxelNode_FConstant_1"',OtherPinId=C766448A4989862CEB5C09A9B1D6637B)
+      OutputPins(0)=(PinId=1EAEC071400DA978C86211B93FC50B61,PinCategory=Float)
+      GraphNode=VoxelGraphNode'"VoxelGraphNode_17"'
+      InputPinCount=2
+   End Object
+   VoxelNode=VoxelNode_Min'"VoxelNode_Min_0"'
+   NodePosX=-992
+   NodePosY=48
+   NodeGuid=A2C9ED61446BF7C8B906EA837F5E829F
+   CustomProperties Pin (PinId=1EAEC071400DA978C86211B93FC50B61,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(VoxelGraphNode_16 C375EC06401A5E3E77A91A8DD58FC6E6,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=5F6999D64B0E62F92CEB4EA48BB7EAE0,PinName="Input",PinFriendlyName=" ",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(VoxelGraphNode_18 7C5E8EB442519B6F09E38CA07D99D61D,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=0927D8C54F664F0541A67F9B073D87A1,PinName="Input2",PinFriendlyName=" ",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(VoxelGraphNode_19 C766448A4989862CEB5C09A9B1D6637B,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/VoxelEditor.VoxelGraphNode Name="VoxelGraphNode_18"
+   Begin Object Class=/Script/Voxel.VoxelNode_ZF Name="VoxelNode_ZF_2"
+   End Object
+   Begin Object Name="VoxelNode_ZF_2"
+      OutputPins(0)=(PinId=7C5E8EB442519B6F09E38CA07D99D61D,PinCategory=Float)
+      GraphNode=VoxelGraphNode'"VoxelGraphNode_18"'
+   End Object
+   VoxelNode=VoxelNode_ZF'"VoxelNode_ZF_2"'
+   NodePosX=-1088
+   NodePosY=32
+   NodeGuid=0D9C34864BEA1A581BE88B91E148FC74
+   CustomProperties Pin (PinId=7C5E8EB442519B6F09E38CA07D99D61D,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(VoxelGraphNode_17 5F6999D64B0E62F92CEB4EA48BB7EAE0,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/VoxelEditor.VoxelGraphNode Name="VoxelGraphNode_19"
+   Begin Object Class=/Script/Voxel.VoxelNode_FConstant Name="VoxelNode_FConstant_1"
+   End Object
+   Begin Object Name="VoxelNode_FConstant_1"
+      OutputPins(0)=(PinId=C766448A4989862CEB5C09A9B1D6637B,PinCategory=Float)
+      GraphNode=VoxelGraphNode'"VoxelGraphNode_19"'
+   End Object
+   VoxelNode=VoxelNode_FConstant'"VoxelNode_FConstant_1"'
+   NodePosX=-1104
+   NodePosY=112
+   NodeGuid=CEA53AF64C8648A5B88162B9169E567A
+   CustomProperties Pin (PinId=C766448A4989862CEB5C09A9B1D6637B,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(VoxelGraphNode_17 0927D8C54F664F0541A67F9B073D87A1,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/VoxelEditor.VoxelGraphNode Name="VoxelGraphNode_20"
+   Begin Object Class=/Script/Voxel.VoxelNode_FSubstract Name="VoxelNode_FSubstract_0"
+   End Object
+   Begin Object Name="VoxelNode_FSubstract_0"
+      InputPins(0)=(PinId=259A510546D38A18763B5BBFED0E96D6,PinCategory=Float,DefaultValue="10",OtherNode=VoxelNode_ZF'"VoxelGraphNode_21.VoxelNode_ZF_3"',OtherPinId=F98C5FAF40E6799B1C5F49AD0B0176F5)
+      InputPins(1)=(PinId=A62DD1EA4ADD598713D059AA5C92F8F2,PinCategory=Float,DefaultValue="10")
+      OutputPins(0)=(PinId=17305C7C44732A431C57919540B8728A,PinCategory=Float)
+      GraphNode=VoxelGraphNode'"VoxelGraphNode_20"'
+      InputPinCount=2
+   End Object
+   VoxelNode=VoxelNode_FSubstract'"VoxelNode_FSubstract_0"'
+   NodePosX=-592
+   NodePosY=512
+   NodeGuid=EC8669F042E25DF87E5FE5BE8DFACD75
+   CustomProperties Pin (PinId=17305C7C44732A431C57919540B8728A,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(VoxelGraphNode_22 5828DF2042D93FF1B5B27AADA943A0B9,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=259A510546D38A18763B5BBFED0E96D6,PinName="Input",PinFriendlyName=" ",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="10",LinkedTo=(VoxelGraphNode_21 F98C5FAF40E6799B1C5F49AD0B0176F5,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=A62DD1EA4ADD598713D059AA5C92F8F2,PinName="Input2",PinFriendlyName=" ",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="10",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/VoxelEditor.VoxelGraphNode Name="VoxelGraphNode_21"
+   Begin Object Class=/Script/Voxel.VoxelNode_ZF Name="VoxelNode_ZF_3"
+   End Object
+   Begin Object Name="VoxelNode_ZF_3"
+      OutputPins(0)=(PinId=F98C5FAF40E6799B1C5F49AD0B0176F5,PinCategory=Float)
+      GraphNode=VoxelGraphNode'"VoxelGraphNode_21"'
+   End Object
+   VoxelNode=VoxelNode_ZF'"VoxelNode_ZF_3"'
+   NodePosX=-672
+   NodePosY=512
+   NodeGuid=55BFD2824217A027ECB419871D2171A2
+   CustomProperties Pin (PinId=F98C5FAF40E6799B1C5F49AD0B0176F5,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(VoxelGraphNode_20 259A510546D38A18763B5BBFED0E96D6,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/VoxelEditor.VoxelGraphNode Name="VoxelGraphNode_22"
+   Begin Object Class=/Script/Voxel.VoxelNode_FDivide Name="VoxelNode_FDivide_0"
+   End Object
+   Begin Object Name="VoxelNode_FDivide_0"
+      InputPins(0)=(PinId=5828DF2042D93FF1B5B27AADA943A0B9,PinCategory=Float,OtherNode=VoxelNode_FSubstract'"VoxelGraphNode_20.VoxelNode_FSubstract_0"',OtherPinId=17305C7C44732A431C57919540B8728A)
+      InputPins(1)=(PinId=17527F83453D16797754A6B71829A43E,PinCategory=Float,DefaultValue="2.5")
+      OutputPins(0)=(PinId=4D87A0094C8F667AF41BC7B3AF1EA4A3,PinCategory=Float)
+      GraphNode=VoxelGraphNode'"VoxelGraphNode_22"'
+      InputPinCount=2
+   End Object
+   VoxelNode=VoxelNode_FDivide'"VoxelNode_FDivide_0"'
+   NodePosX=-432
+   NodePosY=512
+   NodeGuid=26D612304B8BF8208E8BBD9DF8D778F4
+   CustomProperties Pin (PinId=4D87A0094C8F667AF41BC7B3AF1EA4A3,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(VoxelGraphNode_23 449DC19249BBA64F046D07BAA6730D9F,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=5828DF2042D93FF1B5B27AADA943A0B9,PinName="Input",PinFriendlyName=" ",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(VoxelGraphNode_20 17305C7C44732A431C57919540B8728A,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=17527F83453D16797754A6B71829A43E,PinName="Input2",PinFriendlyName=" ",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="2.5",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/VoxelEditor.VoxelGraphNode Name="VoxelGraphNode_23"
+   Begin Object Class=/Script/Voxel.VoxelNode_Clamp Name="VoxelNode_Clamp_0"
+   End Object
+   Begin Object Name="VoxelNode_Clamp_0"
+      InputPins(0)=(PinId=449DC19249BBA64F046D07BAA6730D9F,PinCategory=Float,OtherNode=VoxelNode_FDivide'"VoxelGraphNode_22.VoxelNode_FDivide_0"',OtherPinId=4D87A0094C8F667AF41BC7B3AF1EA4A3)
+      InputPins(1)=(PinId=06BD8763483EF56F326B749251E90B72,PinCategory=Float,DefaultValue="0")
+      InputPins(2)=(PinId=776CEEDA4098DDC8D008BF91F9E74D23,PinCategory=Float,DefaultValue="1")
+      OutputPins(0)=(PinId=DD86F34F4C2A669EE841CBBC5A8CADD1,PinCategory=Float)
+      GraphNode=VoxelGraphNode'"VoxelGraphNode_23"'
+      InputPinCount=3
+   End Object
+   VoxelNode=VoxelNode_Clamp'"VoxelNode_Clamp_0"'
+   NodePosX=-256
+   NodePosY=480
+   NodeGuid=7A9F065E43D94D5F8B8EF8AE1EB95059
+   CustomProperties Pin (PinId=DD86F34F4C2A669EE841CBBC5A8CADD1,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(VoxelGraphNode_24 2892625941E85E36B8D31993E79EC570,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=449DC19249BBA64F046D07BAA6730D9F,PinName="Value",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(VoxelGraphNode_22 4D87A0094C8F667AF41BC7B3AF1EA4A3,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=06BD8763483EF56F326B749251E90B72,PinName="Min",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=776CEEDA4098DDC8D008BF91F9E74D23,PinName="Max",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="1",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/VoxelEditor.VoxelGraphNode Name="VoxelGraphNode_24"
+   Begin Object Class=/Script/Voxel.VoxelNode_Lerp Name="VoxelNode_Lerp_0"
+   End Object
+   Begin Object Name="VoxelNode_Lerp_0"
+      InputPins(0)=(PinId=93128D3A40F684126BF383BAB290A0E1,PinCategory=Float,OtherNode=VoxelNode_FAdd'"VoxelGraphNode_16.VoxelNode_FAdd_0"',OtherPinId=D1C8A5AC4CC90CBF94FD35AE1184AADE)
+      InputPins(1)=(PinId=EE553B3A4E253C4C6345D89916ACF58C,PinCategory=Float,OtherNode=VoxelNode_FConstant'"VoxelGraphNode_25.VoxelNode_FConstant_2"',OtherPinId=A3B311044EFA66F3E366C1922DB78742)
+      InputPins(2)=(PinId=2892625941E85E36B8D31993E79EC570,PinCategory=Float,OtherNode=VoxelNode_Clamp'"VoxelGraphNode_23.VoxelNode_Clamp_0"',OtherPinId=DD86F34F4C2A669EE841CBBC5A8CADD1)
+      OutputPins(0)=(PinId=AC6559D047180CD1AE3BAC97C755EE13,PinCategory=Float)
+      GraphNode=VoxelGraphNode'"VoxelGraphNode_24"'
+      InputPinCount=3
+   End Object
+   VoxelNode=VoxelNode_Lerp'"VoxelNode_Lerp_0"'
+   NodePosX=96
+   NodePosY=432
+   NodeGuid=76C2DFDD447D1D45A8AC5FB87DE6AF74
+   CustomProperties Pin (PinId=AC6559D047180CD1AE3BAC97C755EE13,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(VoxelGraphNode_27 987D010D441672A66819D787793ACCE0,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=93128D3A40F684126BF383BAB290A0E1,PinName="A",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(VoxelGraphNode_16 D1C8A5AC4CC90CBF94FD35AE1184AADE,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=EE553B3A4E253C4C6345D89916ACF58C,PinName="B",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(VoxelGraphNode_25 A3B311044EFA66F3E366C1922DB78742,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=2892625941E85E36B8D31993E79EC570,PinName="Alpha",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(VoxelGraphNode_23 DD86F34F4C2A669EE841CBBC5A8CADD1,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/VoxelEditor.VoxelGraphNode Name="VoxelGraphNode_25"
+   Begin Object Class=/Script/Voxel.VoxelNode_FConstant Name="VoxelNode_FConstant_2"
+   End Object
+   Begin Object Name="VoxelNode_FConstant_2"
+      Value=1.000000
+      OutputPins(0)=(PinId=A3B311044EFA66F3E366C1922DB78742,PinCategory=Float)
+      GraphNode=VoxelGraphNode'"VoxelGraphNode_25"'
+   End Object
+   VoxelNode=VoxelNode_FConstant'"VoxelNode_FConstant_2"'
+   NodePosX=-48
+   NodePosY=448
+   NodeGuid=F25540EB4928E364EB46B786C6BFBACE
+   CustomProperties Pin (PinId=A3B311044EFA66F3E366C1922DB78742,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(VoxelGraphNode_24 EE553B3A4E253C4C6345D89916ACF58C,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/VoxelEditor.VoxelGraphNode Name="VoxelGraphNode_27"
+   Begin Object Class=/Script/Voxel.VoxelNode_SetValue Name="VoxelNode_SetValue_4"
+   End Object
+   Begin Object Name="VoxelNode_SetValue_4"
+      InputPins(0)=(PinId=DD2767AB4332DB2220F67A9877374C94)
+      InputPins(1)=(PinId=987D010D441672A66819D787793ACCE0,PinCategory=Float,DefaultValue="1",OtherNode=VoxelNode_Lerp'"VoxelGraphNode_24.VoxelNode_Lerp_0"',OtherPinId=AC6559D047180CD1AE3BAC97C755EE13)
+      OutputPins(0)=(PinId=F3E4FA3F4308B7EF5843149E9F33208A)
+      GraphNode=VoxelGraphNode'"VoxelGraphNode_27"'
+      InputPinCount=2
+   End Object
+   VoxelNode=VoxelNode_SetValue'"VoxelNode_SetValue_4"'
+   NodePosX=576
+   NodePosY=400
+   NodeGuid=AA2E9C894265FC45AFAB0F88F32819F9
+   CustomProperties Pin (PinId=F3E4FA3F4308B7EF5843149E9F33208A,PinName="Output",PinFriendlyName=" ",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=DD2767AB4332DB2220F67A9877374C94,PinName="Input",PinFriendlyName=" ",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(VoxelGraphNode_Root_0 A25E87C045AA430305D63AA4301931CB,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+   CustomProperties Pin (PinId=987D010D441672A66819D787793ACCE0,PinName="Input2",PinFriendlyName=" ",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="1",LinkedTo=(VoxelGraphNode_24 AC6559D047180CD1AE3BAC97C755EE13,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+End Object
+Begin Object Class=/Script/UnrealEd.EdGraphNode_Comment Name="EdGraphNode_Comment_0"
+   CommentColor=(R=1.000000,G=0.331117,B=0.000000,A=1.000000)
+   NodePosX=-1472
+   NodePosY=-480
+   NodeWidth=608
+   NodeHeight=320
+   NodeComment="3D Simplex"
+   NodeGuid=241AD2A741779339265C36A53174DCF6
+End Object
+Begin Object Class=/Script/UnrealEd.EdGraphNode_Comment Name="EdGraphNode_Comment_1"
+   CommentColor=(R=1.000000,G=0.331117,B=0.000000,A=1.000000)
+   NodePosX=-723
+   NodePosY=360
+   NodeWidth=656
+   NodeHeight=288
+   NodeComment="if Z > 10 then 0\r\nelse if Z > 7.5 then lerp between 0 and 1\r\nelse 1"
+   NodeGuid=500F3FDE459467635594ED80C5161E16
+End Object
+Begin Object Class=/Script/UnrealEd.EdGraphNode_Comment Name="EdGraphNode_Comment_2"
+   CommentDepth=-2
+   NodePosX=-768
+   NodePosY=272
+   NodeWidth=1024
+   NodeHeight=432
+   NodeComment="Top fade"
+   NodeGuid=80259064474F21013E08B994F2A4F6BE
+End Object
+Begin Object Class=/Script/UnrealEd.EdGraphNode_Comment Name="EdGraphNode_Comment_4"
+   CommentColor=(R=1.000000,G=0.331117,B=0.000000,A=1.000000)
+   NodePosX=-1148
+   NodePosY=-52
+   NodeWidth=352
+   NodeHeight=256
+   NodeComment="if Z < 0 then Z\r\nelse 0"
+   NodeGuid=305350164C95117FBE67EAB32DC3CDE2
+End Object
+Begin Object Class=/Script/UnrealEd.EdGraphNode_Comment Name="EdGraphNode_Comment_6"
+   CommentDepth=-2
+   NodePosX=-1200
+   NodePosY=-112
+   NodeWidth=851
+   NodeHeight=356
+   NodeComment="Bottom fade"
+   NodeGuid=784E440341544883E3FCA7AAC63732DA
+End Object
