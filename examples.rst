@@ -5,3 +5,4 @@ Examples
    :titlesonly:
 
    SmallRavines/index
+   FloatingIsland/index
