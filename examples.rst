@@ -6,3 +6,4 @@ Examples
 
    SmallRavines/index
    FloatingIsland/index
+   SamplerPlacement/index
